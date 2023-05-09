@@ -3,6 +3,7 @@
 import FirstSection from "@/components/FirstSection.vue";
 import EventPropagation from "@/components/EventPropagation.vue";
 import State from "@/components/State.vue";
+import Computed from "@/components/Computed.vue";
 </script>
 
 <template>
@@ -10,5 +11,6 @@ import State from "@/components/State.vue";
     <FirstSection title="Hello VueJS" />
     <EventPropagation />
     <State />
+    <Computed />
   </section>
 </template>
